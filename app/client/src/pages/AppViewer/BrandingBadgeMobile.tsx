@@ -6,6 +6,8 @@ const AppsmithLogo = importSvg(
 );
 
 function BrandingBadge() {
+  // Ancien rendu du badge
+  /*
   return (
     <a
       className="flex items-center p-1 px-2 space-x-2 bg-white rounded-md md:border md:flex z-3 hover:no-underline"
@@ -17,6 +19,9 @@ function BrandingBadge() {
       <AppsmithLogo className="w-auto h-3" />
     </a>
   );
+  */
+  // Nouveau rendu : ne rien afficher
+  return null;
 }
 
 export default BrandingBadge;
